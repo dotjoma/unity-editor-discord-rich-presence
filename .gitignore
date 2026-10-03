@@ -19,6 +19,7 @@ $RECYCLE.BIN/
 *.swp
 *~
 *.ps1
+icons/
 
 # Temporary & Build Files
 *.tmp

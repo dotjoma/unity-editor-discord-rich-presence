@@ -1,8 +1,21 @@
+<div align="center">
+
 # Unity Editor Discord Rich Presence
 
-A lightweight, high-performance, and zero-dependency Discord Rich Presence (RPC) plugin for the Unity Editor.
+**A lightweight, high-performance, and zero-dependency Discord Rich Presence (RPC) integration for the Unity Editor.**
 
-Connects directly to Discord via local Inter-Process Communication (IPC Named Pipe on Windows, Unix domain sockets on macOS/Linux) without requiring external native DLLs, packages, or the deprecated Discord Game SDK.
+[![Unity](https://img.shields.io/badge/UNITY-5.x%20--%206000.x-000000?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com/)
+[![C#](https://img.shields.io/badge/C%23-PURE%20C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/)
+[![Discord](https://img.shields.io/badge/DISCORD-RICH%20PRESENCE-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/)
+[![Platform](https://img.shields.io/badge/PLATFORM-WIN%20%7C%20MAC%20%7C%20LINUX-4A4A4A?style=for-the-badge)](https://unity.com/)
+[![Dependencies](https://img.shields.io/badge/DEPENDENCIES-ZERO-2EA44F?style=for-the-badge)](#features)
+[![License](https://img.shields.io/badge/LICENSE-MIT-F5A623?style=for-the-badge)](LICENSE)
+
+<br/>
+
+Connects directly to Discord via local IPC Named Pipe without requiring external native DLLs, packages, or the deprecated Discord Game SDK.
+
+</div>
 
 ---
 
