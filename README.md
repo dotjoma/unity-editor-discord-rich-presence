@@ -6,7 +6,7 @@
 
 [![Unity](https://img.shields.io/badge/UNITY-5.x%20--%206000.x-000000?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com/)
 [![C#](https://img.shields.io/badge/C%23-PURE%20C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/)
-[![Discord](https://img.shields.io/badge/DISCORD-RICH%20PRESENCE-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/)
+[![Discord](https://img.shields.io/badge/DISCORD-JOIN%20COMMUNITY-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/ztPFSjpZpa)
 [![Platform](https://img.shields.io/badge/PLATFORM-WIN%20%7C%20MAC%20%7C%20LINUX-4A4A4A?style=for-the-badge)](https://unity.com/)
 [![Dependencies](https://img.shields.io/badge/DEPENDENCIES-ZERO-2EA44F?style=for-the-badge)](#features)
 [![License](https://img.shields.io/badge/LICENSE-MIT-F5A623?style=for-the-badge)](LICENSE)
@@ -110,6 +110,14 @@ The plugin works immediately with zero configuration. To customize what gets dis
   - macOS (`/var/folders/.../discord-ipc-0` or `$TMPDIR/discord-ipc-0`)
   - Linux (`$XDG_RUNTIME_DIR/discord-ipc-0` or `/tmp/discord-ipc-0`)
 - **Render Pipelines**: Built-in, Universal RP (URP), High Definition RP (HDRP).
+
+---
+
+## Community & Support
+
+Join our developer community on Discord for feedback, game dev discussions, and updates:
+
+[![Discord Server](https://img.shields.io/badge/JOIN%20DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/ztPFSjpZpa)
 
 ---
 
