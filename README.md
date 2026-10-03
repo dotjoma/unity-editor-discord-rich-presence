@@ -48,55 +48,16 @@ Connects directly to Discord via local Inter-Process Communication (IPC Named Pi
 
 ## Quick Start & Installation
 
-### Option 1: Single File Drop-in
+This plugin is **100% plug-and-play** out of the box with zero setup required:
+
 1. Copy `UnityDiscordRichPresence.cs` into your Unity project anywhere inside an `Editor` folder (e.g. `Assets/Editor/DiscordRPC/UnityDiscordRichPresence.cs`).
-2. The script compiles and automatically connects to your running Discord client on load.
+2. That's it! The script automatically compiles, connects to your running Discord desktop client, and displays your presence with official engine badges.
 
 ---
 
-## Discord Developer Portal Setup
+## Configuration & Preferences (Optional)
 
-To display custom Unity icons on your profile:
-
-### 1. Create Your Discord Application
-1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
-2. Click **New Application**, give it a name (e.g. `Unity Editor`), and click **Create**.
-3. In the **General Information** tab, copy the **Application ID**.
-
-### 2. Configure Your Unity Editor
-1. In Unity, open `Edit > Preferences > Discord Rich Presence`.
-2. Paste your **Application ID** into the **Discord Application ID** field.
-3. Click **Reconnect Now**.
-
-### 3. Upload Art Assets
-1. In the Discord Developer Portal, navigate to your application $\rightarrow$ **Rich Presence** $\rightarrow$ **Art Assets**.
-2. Note: Discord requires all art assets to be at least **512×512**.
-3. Upload the pre-rendered icons from the `icons/` folder using the exact asset keys below:
-
-#### Large Image (Version Badges)
-| Asset Key | File Name | Description |
-| :--- | :--- | :--- |
-| `unity_6` | `icons/unity_6.png` | Official Unity 6 cube badge with "6" emblem |
-| `unity_2023` | `icons/unity_2023.png` | Modern Unity logo (2021–2023) |
-| `unity_2022` | `icons/unity_2022.png` | Modern Unity logo |
-| `unity_2021` | `icons/unity_2021.png` | Modern Unity logo |
-| `unity_2020` | `icons/unity_2020.png` | Classic flat Unity chevron cube |
-| `unity_2019` | `icons/unity_2019.png` | Classic flat Unity chevron cube |
-| `unity_5` | `icons/unity_5.png` | Classic isometric Unity 5 cube |
-
-#### Small Image (Editor State Badges)
-| Asset Key | File Name | Description |
-| :--- | :--- | :--- |
-| `play` | `icons/play.png` | Unity Dark theme circular badge with cyan Play triangle (`▶`) |
-| `pause` | `icons/pause.png` | Unity Dark theme circular badge with amber Pause bars (`❚ ❚`) |
-| `edit` | `icons/edit.png` | Unity Dark theme circular badge with 3D Scene Gizmo cube |
-| `compile` | `icons/compile.png` | Unity Dark theme circular badge with teal reload arrows (`⟳`) |
-
----
-
-## Configuration & Preferences
-
-Open `Edit > Preferences > Discord Rich Presence` to customize presence settings:
+The plugin works immediately with zero configuration. To customize what gets displayed, open `Edit > Preferences > Discord Rich Presence`:
 
 - **Enable Rich Presence**: Master toggle to enable or disable presence.
 - **Discord Application ID**: Your registered Discord Developer Application ID.
