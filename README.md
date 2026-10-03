@@ -124,25 +124,6 @@ Open `Edit > Preferences > Discord Rich Presence` to customize presence settings
 - `Tools > Discord Rich Presence > Reconnect` — Force reconnect pipe handshake.
 - `Tools > Discord Rich Presence > Preferences...` — Directly open the preferences page.
 
----
-
-## Helper Scripts
-
-Included in this repository are standalone utility scripts:
-
-- **`ExtractUnityVersionIcons.ps1`**:
-  PowerShell script that scans installed Unity Editors (`Unity.exe`), extracts native 256×256 executable icons via Windows Shell API, and upscales them to 512×512 PNGs ready for Discord upload.
-  ```powershell
-  powershell -NoProfile -ExecutionPolicy Bypass -File .\ExtractUnityVersionIcons.ps1
-  ```
-- **`GenerateSmallIcons.ps1`**:
-  PowerShell script that renders pixel-perfect 512×512 vector small icons matching the Unity Editor dark UI styling.
-  ```powershell
-  powershell -NoProfile -ExecutionPolicy Bypass -File .\GenerateSmallIcons.ps1
-  ```
-
----
-
 ## Compatibility
 
 - **Unity Versions**: Unity 5.x, 2017.x, 2018.x, 2019.x, 2020.x, 2021.x, 2022.x, 2023.x, and Unity 6 (6000.x).

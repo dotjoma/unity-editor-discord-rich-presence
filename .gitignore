@@ -18,6 +18,7 @@ $RECYCLE.BIN/
 *.sln.docstates
 *.swp
 *~
+*.ps1
 
 # Temporary & Build Files
 *.tmp
