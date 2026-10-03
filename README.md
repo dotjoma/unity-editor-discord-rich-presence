@@ -27,6 +27,10 @@ Connects directly to Discord via local Inter-Process Communication (IPC Named Pi
 
 ## Rich Presence Preview
 
+| Edit Mode (Scene Editing) | Play Mode (Live Playtesting) |
+| :---: | :---: |
+| <img src="./screenshots/discord_preview_edit.png" alt="Discord RPC Edit Mode Preview" width="320" /> | <img src="./screenshots/discord_preview_play.png" alt="Discord RPC Play Mode Preview" width="320" /> |
+
 | Field | Source / Format | Example |
 | :--- | :--- | :--- |
 | **Details** | Project Name + Version | `MyGame (v1.0.0)` |
